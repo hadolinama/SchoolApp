@@ -1,0 +1,45 @@
+html, body {
+  height: 100vh;
+  width: 100%;
+}
+header {
+    width: 40px;
+    margin-bottom:10px;
+    display: inline;
+}
+#head { 
+    padding: 10px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+#webpage {
+    color: #ffffff;
+    height: 70px;
+    width: 100%;
+    background: #483D8B;
+
+}
+li {
+    display: inline;
+    margin: 0px 40px 20px 40px;
+    float: right;
+    clear: auto;
+}
+li:hover {
+    color: white;
+    background: #727F89;
+  }
+
+  #content {
+      height: 570px;
+      width: 100%;
+      background-image: url("../images/picturealt.jpg");
+
+  }
+ 
+footer {
+    color: #ffffff;
+    height: 70px;
+    width: 100%;
+    background: #483D8B;
+}

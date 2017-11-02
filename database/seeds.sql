@@ -1,0 +1,3 @@
+-- Insert burgers into burgers_table
+INSERT INTO student_table (first_name,last_name,birth_date, sex, tuition, grade, teacher, email, street, city, state, zip, phone) VALUES ("Peter", "Thomas" 2013-10-10, "M", "$4500.00", "2", "Mrs. Forester", "pthomas@lycee.edu","123 Main Street", "Townville", "IL", "60660", "312-500-6000");
+INSERT INTO student_table (first_name,last_name,birth_date, sex, tuition, grade, teacher, email, street, city, state, zip, phone) VALUES ("Peter", "Thomas" 2014-01-14, "F", "$4500.00", "2", "Mrs. Forester", "pthomas@lycee.edu","123 Main Street", "Townville", "IL", "60660", "312-500-6000");

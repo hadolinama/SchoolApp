@@ -1,0 +1,101 @@
+<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/enroll.css">
+    <title>Enrollment Form</title>
+
+</head>
+<body>
+    <!-- To make a form use the <form> tag and insert input and buttons etc..Placeholder's input temporary text b4 user alters it -->
+
+</body>
+<h2 id="register">Registration Form</h2>
+<!-- To IMportant things: Action(ie where to send form data when submit is clicked
+    )
+Method(ie what HTTPS to POST/ADD[add data] or Post{add data}) -->
+<form action="https://www.lyceé.edu" method="POST">
+    <p><strong>Parent's Information</strong></p>
+            <label for="first">First Name</label>
+                <input name="first"  id="first" type="text" placeholder="John" required>
+                <br>
+            <label for="last">Last Name</label>
+                <input name= "last" id="last" type="text" placeholder="Smith" required>
+        <br>
+        
+        <div>
+            <label for="male">Male</label>
+            <input name="gender" type="radio" value="male">
+        <br>
+            <label for="female">Female</label>
+            <input name= "gender" type="radio" value="female">
+        
+        </div>
+        
+        <br>
+        
+        <label>
+            Email:
+            <input  name="email" type="email" placeholder="your email" required>
+            </label>
+        
+            <label>
+                Password:
+            <input name="password" type="password" placeholder="your password" pattern=".{7,12}" required title="7 to 12 characters">
+        </label
+        <br>
+        <br>
+        <label>
+                Confirm:
+            <input name="password" type="password" placeholder="confirm password" pattern=".{7,12}" required title="7 to 12 characters">
+        </label
+        <br>
+        <br>
+        <br>
+        <label>
+            Phone:
+            <input id="phoneNumber" type="tel" required>
+                
+        </label>
+    
+        
+       
+
+     <div id="childrenInfo">
+            
+            <p><strong>Child's Information</strong></p>
+
+            <label for="first">First Name</label>
+            <input name="first"  id="first" type="text" placeholder="Little" required>
+        <label for="last">Last Name</label>
+            <input name= "last" id="last" type="text" placeholder="Smith" required>
+    
+    <div>
+        <label for="male">Male</label>
+        <input name="gender" type="radio" value="male">
+    <br>
+        <label for="female">Female</label>
+        <input name= "gender" type="radio" value="female">
+   
+    </div>
+    <br>
+    <div>
+        <label for="birthdate">Birthdate</label> 
+        <input type="date" name="bday" min="2017-10-02"><br>
+        
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="agreed">I agree to the terms and conditions:</label>
+            <input id="agreed" name="agreed" type="checkbox">
+        </div>
+        
+    <div>
+        <br>
+        <button>Add A Child</button>
+        <button>submit</button>
+    </div>
+</form>
+<!-- The actio was sent to lycee.comm, the method was retrieve login page -->
+</html>
